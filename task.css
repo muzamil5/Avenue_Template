@@ -2,10 +2,19 @@
     margin: 0px;
     padding: 0px;
 }
-body{
+
+/* body{
     padding-left: 8em;
     padding-right: 7em;
+    font-family: 'Poiret One';
+} */
+
+body{
+    padding-left: 15em;
+    padding-right: 15em;
+    font-family: 'Poiret One';
 }
+
 .navbar{
     padding-top: 5em;
     padding-bottom: 5em;
@@ -13,24 +22,24 @@ body{
 .nav-left{
     text-decoration: none;
     color: black;
-    font-family: Amiko;
-    font-size: 35px;
+    font-family: "Amiko";
+    font-size: 40px;
     font-weight: bold;
     cursor: pointer;
-    /* width: auto; */
-    padding-right: 34em;
-    display: inline;
+    float: left;
+    display: inline-block;
+        border: none;
 }
 
 .nav-right{
     text-decoration: none;
     color: #adadad;
-    font-family: Amiko;
+    font-family: 'Amiko';
     cursor: pointer;
-    /* width: auto; */
     padding-left: 25px;
-    font-size: 12px;
+    font-size: 15px;
     display: inline;
+    float: right;
         
 }
 
@@ -43,19 +52,17 @@ body{
     color: black;
 }
 
-img {
+/* img {
     width: 500px;
     height: 490px;
     cursor: pointer;
   
-}
-
-
-.grid-container {
+} */
+/* .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 550px 550px 550px 550px ;
-    grid-gap: 10px;
+    grid-template-rows: 550px  ;
+    grid-gap: 25px;
     background-color: white;
     padding: 10px;
   }
@@ -66,7 +73,76 @@ img {
     font-size: 30px;
   }
   .text{
+    margin-top: 15px;
     text-align: center;
-    color: #adadad;
+    color: #404040;
+}
+ */
 
+
+
+ img {
+    width: 440px;
+    height: 400px;
+    cursor: pointer;
+  
+}
+/* img {
+    opacity: 1;
+    transition: 0.3s;
+} */
+
+
+img:hover {opacity: 0.8}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:  auto auto auto;
+    grid-gap:15px;
+    align-content: center;
+    /* padding: 10px; */
+  }
+  .grid-container > img {
+    /* background-color:white; */
+    /* text-align: center; */
+    padding: 20px 10PX;
+    font-size: 30px;
+  }
+  .text{
+    margin-top: 15px;
+    text-align: center;
+    color: #404040;
+    cursor: pointer;
+}
+
+
+.footer{
+    /* padding-top: 15px;
+    padding-bottom: 25px; */
+    font-family: "proxima-nova";
+    font-size: 15px;
+    line-height: 1.8em;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0 0 1em;
+    color: #575757;
+}
+
+.fdiv{
+    padding-bottom: 80px;
+    padding-top: 60px;
+    color: #575757;
+
+}
+.link{
+    color: #575757;
+    text-decoration-line: underline black;
+
+}
+.link:hover{
+    color: black;
+    text-decoration-line: underline #575757;
 }
