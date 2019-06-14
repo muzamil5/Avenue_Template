@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body{
+    padding-left: 15em;
+    padding-right: 15em;
+    align-items: justify;
+}
+
+.navbar{
+    padding-top: 5em;
+    padding-bottom: 10em;
+}
+.nav-left{
+    text-decoration: none;
+    color: black;
+    font-family: "Amiko";
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    float: left;
+    display: inline-block;
+    border: none;
+}
+
+.nav-right{
+    text-decoration: none;
+    color: #adadad;
+    font-family: 'Amiko';
+    cursor: pointer;
+    padding-left: 25px;
+    font-size: 15px;
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+        
+}
+
+.nav-left:hover{
+    color: #4c4747;
+}
+
+
+.nav-right:hover{
+    color: black;
+}
+.heading{
+    font-family:"Amiko";
+}
+.footer{
+    font-family: "proxima-nova";
+    font-size: 15px;
+    line-height: 1.8em;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0 0 1em;
+    color: #575757;
+}
+
+.fdiv{
+    padding-bottom: 80px;
+    padding-top: 60px;
+    color: #575757;
+
+}
+.link{
+    color: #575757;
+    text-decoration-line: underline black;
+
+}
+.link:hover{
+    color: black;
+    text-decoration-line: underline #575757;
+}
+
+.right{
+    float: right;
+    margin-right: 4em;
+}
+.heading{
+    padding-bottom: 2em;
+    font-size: 20px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .05em;
+    font-style: normal;
+    font-family: "Amiko";
+
+}
+
+.right-block {
+    padding-bottom: 3em;
+    color: #949494;
+    cursor: pointer;
+}
+.date{
+    color: #adadad;
+    cursor: auto;
+    font-size: 12px;
+    margin-top: 2px;
+}
+.date-p{
+    color: #adadad;
+    cursor: auto;
+    font-size: 12px;
+    margin-top: 2em;
+
+}
+.p-name {
+    padding-top: 3em;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .05em;
+}
+
+.p-name:hover{
+    color: #665f5f;
+    cursor: pointer;
+}
+
+.pre-text{
+    color: #665f5f;
+}
+
+
+
+.share{
+    float: left;
+    color: #949494;
+}
+.share:hover{
+    color: black;
+}
+.heart {
+    float: right;
+    font-size: bold;
+}
+.heart:hover{
+    color: red;
+}
+.react{
+    padding-bottom: 5em;
+    padding-top: 5em;
+}
+
+/* .paragraph{
+    text-align: justify;
+    width: 5em;
+} */
+
+.cover{
+    padding-left: 17px;
+    padding-right: 17px;
+    position: relative;
+    height: auto;
+
+}
+.article{
+    font-family: "proxima-nova";
+    font-size: 15px;
+    line-height: 1.8em;
+    text-transform: none;
+    font-weight: 300;
+    font-style: normal;
+}
+}

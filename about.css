@@ -8,12 +8,12 @@
 body{
     padding-left: 15em;
     padding-right: 15em;
-    font-family: 'Poiret One';
+    align-items: justify;
 }
 
 .navbar{
     padding-top: 5em;
-    padding-bottom: 5em;
+    padding-bottom: 10em;
 }
 .nav-left{
     text-decoration: none;
@@ -49,38 +49,29 @@ body{
     color: black;
 }
 
-
-
- img {
-    width: 440px;
-    height: 400px;
-    cursor: pointer;
-  
+.right{
+    float: right;
+    margin-top: -550px;
 }
 
+.heading{
+    padding-bottom: 2em;
+    font-size: 20px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .05em;
+    font-style: normal;
+    font-family: "Amiko";
 
-
-img:hover {opacity: 0.8}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows:  auto auto auto;
-    grid-gap:15px;
-    align-content: center;
-  }
-  .grid-container > img {
-
-    padding: 20px 10PX;
-    font-size: 30px;
-  }
-  .text{
-    margin-top: 15px;
-    text-align: center;
-    color: #404040;
-    cursor: pointer;
 }
 
+.right-block {
+   
+    color: #949494;
+    cursor: pointer;
+
+}
 
 .footer{
     font-family: "proxima-nova";
@@ -103,9 +94,13 @@ img:hover {opacity: 0.8}
 .link{
     color: #575757;
     text-decoration-line: underline black;
-
 }
 .link:hover{
     color: black;
     text-decoration-line: underline #575757;
+}
+
+.img{
+    width: 650px;
+    height: 550px;
 }
