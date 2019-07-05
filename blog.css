@@ -81,7 +81,7 @@ body{
 
 .right{
     float: right;
-    margin-right: 4em;
+    margin-top: 6em;
 }
 .heading{
     padding-bottom: 2em;
@@ -130,6 +130,7 @@ body{
 
 .pre-text{
     color: #665f5f;
+    text-align: left;
 }
 
 
@@ -153,10 +154,7 @@ body{
     padding-top: 5em;
 }
 
-/* .paragraph{
-    text-align: justify;
-    width: 5em;
-} */
+
 
 .cover{
     padding-left: 17px;
@@ -172,5 +170,4 @@ body{
     text-transform: none;
     font-weight: 300;
     font-style: normal;
-}
 }

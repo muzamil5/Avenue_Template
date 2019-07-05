@@ -6,8 +6,8 @@
 
 
 body{
-    padding-left: 15em;
-    padding-right: 15em;
+    padding-left: 5em;
+    padding-right: 5em;
     align-items: justify;
 }
 
@@ -67,7 +67,6 @@ body{
 }
 
 .right-block {
-   
     color: #949494;
     cursor: pointer;
 
@@ -101,6 +100,6 @@ body{
 }
 
 .img{
-    width: 650px;
-    height: 550px;
+    width: 30%;
+    height: 50%;
 }
